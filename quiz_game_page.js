@@ -44,6 +44,9 @@ function check(){
             document.getElementById("player2_score").innerHTML=player2_score;
         }
     }
+    else{
+        window.alert("Opps That was wrong answer the corrects answer is: "+actual_answer);
+    }
 
     if(question_turn == "player1"){
 
